@@ -5,7 +5,7 @@ import dj_database_url
 
 # BASE_DIR
 BASE_DIR = Path(__file__).resolve().parent.parent
-
+from dotenv import load_dotenv
 # Load .env file
 load_dotenv()
 
@@ -66,11 +66,11 @@ WSGI_APPLICATION = 'myfirstproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'carproject_db_s27w',
-        'USER': 'carproject_db_s27w_user',
-        'PASSWORD': 'eJjQqQYPOVUBioIXhy5RA3cQouiNqqv0',
+        'NAME':os.getenv('DB_NAME'),
+        'USER': os.getenv('DB_USER'),
+        'PASSWORD': os.getenv('DB_PASSWORD'),
         'HOST': 'dpg-d5c05i9r0fns739a50p0-a.oregon-postgres.render.com',
-        'PORT': '5432',
+        'PORT': int(os.getenv('DB_PORT')),
     }
 }
 

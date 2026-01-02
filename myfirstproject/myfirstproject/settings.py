@@ -66,10 +66,10 @@ WSGI_APPLICATION = 'myfirstproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'carproject_db',
-        'USER': 'carproject_db_user',
-        'PASSWORD': 'qU5fo2GIp9MwM0vNaRodaRI3vuWWkBoS',
-        'HOST': 'dpg-d4jfh18bdp1s73ftgfng-a.oregon-postgres.render.com',
+        'NAME': 'carproject_db_s27w',
+        'USER': 'carproject_db_s27w_user',
+        'PASSWORD': 'eJjQqQYPOVUBioIXhy5RA3cQouiNqqv0',
+        'HOST': 'dpg-d5c05i9r0fns739a50p0-a.oregon-postgres.render.com',
         'PORT': '5432',
     }
 }

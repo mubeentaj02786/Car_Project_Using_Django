@@ -69,7 +69,7 @@ DATABASES = {
         'NAME':os.getenv('DB_NAME'),
         'USER': os.getenv('DB_USER'),
         'PASSWORD': os.getenv('DB_PASSWORD'),
-        'HOST': 'dpg-d5c05i9r0fns739a50p0-a.oregon-postgres.render.com',
+        'HOST': 'dpg-d6a9si2li9vc73akn2gg-a.oregon-postgres.render.com',
         'PORT': os.getenv('DB_PORT'),
         'OPTIONS':{
             'sslmode': 'require',

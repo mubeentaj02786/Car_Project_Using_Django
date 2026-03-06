@@ -126,7 +126,7 @@ The project is fully functional in local environment.
 
 ## 👨‍💻 Developed By
 
-Mohamed Maruf Kureshi  
+Mubeen taj
 BCA Graduate  
 Aspiring Full Stack Developer (Django)
 
